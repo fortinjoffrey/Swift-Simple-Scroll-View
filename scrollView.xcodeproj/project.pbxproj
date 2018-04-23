@@ -11,6 +11,7 @@
 		DDD433D8208D21CC0059E7F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD433D7208D21CC0059E7F1 /* ViewController.swift */; };
 		DDD433DD208D21CF0059E7F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD433DC208D21CF0059E7F1 /* Assets.xcassets */; };
 		DDD433E0208D21CF0059E7F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD433DE208D21CF0059E7F1 /* LaunchScreen.storyboard */; };
+		DDE90D5C208DD296009C4C65 /* UIView+Anchoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE90D5B208DD296009C4C65 /* UIView+Anchoring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DDD433DC208D21CF0059E7F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD433DF208D21CF0059E7F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD433E1208D21CF0059E7F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE90D5B208DD296009C4C65 /* UIView+Anchoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchoring.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		DDD433D4208D21CB0059E7F1 /* scrollView */ = {
 			isa = PBXGroup;
 			children = (
+				DDE90D5B208DD296009C4C65 /* UIView+Anchoring.swift */,
 				DDD433D5208D21CC0059E7F1 /* AppDelegate.swift */,
 				DDD433D7208D21CC0059E7F1 /* ViewController.swift */,
 				DDD433DC208D21CF0059E7F1 /* Assets.xcassets */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE90D5C208DD296009C4C65 /* UIView+Anchoring.swift in Sources */,
 				DDD433D8208D21CC0059E7F1 /* ViewController.swift in Sources */,
 				DDD433D6208D21CC0059E7F1 /* AppDelegate.swift in Sources */,
 			);
@@ -269,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD5843FU5C;
 				INFOPLIST_FILE = scrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -286,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD5843FU5C;
 				INFOPLIST_FILE = scrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -20,7 +20,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         let scrollController = ViewController()
-        window?.rootViewController = scrollController
+        
+        let navController = UINavigationController(rootViewController: scrollController)
+        
+        UINavigationBar.appearance().barTintColor = .red
+        
+        UINavigationBar.appearance().isTranslucent = false
+        
+        UINavigationBar.appearance().prefersLargeTitles = true
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        
+        
+        window?.rootViewController = navController
         
         return true
     }
